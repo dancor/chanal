@@ -1,0 +1,4 @@
+#!/bin/sh
+G=$1
+echo 'annotate '"$G"$' wb 3-999 0.1 10 3\nquit' | crafty
+
