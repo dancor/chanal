@@ -6,5 +6,22 @@ my main line|1 Nf3 c5 2 c4 Nc6 3 Nc3 e5 (english symmetrical)
 1 Nf3 Nc6|2 d4 d5 3 Bf4 (QP)
 1 Nf3 b6|2 g3 Bb7 3 Bg2 (reti)
 1 d4|Nf6 2 c4 e6 3 Nf3 b6 (QI nimzowitsch)
-1 e4|c5 2 Nf3 e6 3 d4 cxd4 (sicilian kan)
+1 e4|c5 2 Nf3 e6 3 d4 cxd4 (sicilian kan) (sicilian taimanov)
 1 c4|e5 2 g3 Nf6 3 Bg2 d5 (english four knights)
+
+1 Nf3 d5 2 c4 dxc4|3 e3 (QGA classical) (reti accepted)
+1 Nf3 d5 2 c4 c6|3 e3 (semi-slav chigorin) (semi-slav bogoljubow)
+1 Nf3 d5 2 c4 e6|3 g3 (catalan open classical)
+
+1 d4 Nf6 2 c4 e6 3 Nc3|Bb4 (nimzo-indian classical)
+1 d4 Nf6 2 c4 e6 3 a3|d5 (QP anti-nimzo-indian)
+1 d4 Nf6 2 Nf3|g6 3 c4 Bg7 (KI fianchetto classical)
+
+1 e4 c5 2 Nf3 e6 3 e5|Nc6 (french advance)
+1 e4 c5 2 Nf3 e6 3 Nc3|a6 <transp - sicilian taimanov>
+1 e4 c5 2 Nc3|Nc6 3 Bb5 Nd4 (sicilian closed)
+1 e4 c5 2 f4|d5 3 exd5 Nf6 (sicilian grand prix tal gambit)
+
+1 c4 e5 2 Nc3|Nf6 3 Nf3 Nc6 <transp - english four knights>
+1 c4 e5 2 Nc3 Nf6 3 g3|d5 (english bremen reverse dragon)
+
