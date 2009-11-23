@@ -72,6 +72,7 @@ W (5)
       f5 2 g3
       Nc6 2 d4
       b6 2 g3
+      e6 2 c4
 B (7)
 1 d4 Nf6 2 c4 e6
          2 Nf3 e6
@@ -97,6 +98,7 @@ W (9)
       Nc6 2 d4 d5 3 Bf4 (QP)
                e6 3 e4  (QP bogoljubow-miles - rare)
       b6 2 g3 Bb7 3 Bg2 (reti)
+      e6 2 c4 d5 3 g3   (reti accepted 1 .. e6)
 B (12)
 1 d4 Nf6 2 c4 e6 3 Nf3 b6   (QI nimzowitsch)
                  3 Nc3 Bb4  (nimzo-indian classical)
