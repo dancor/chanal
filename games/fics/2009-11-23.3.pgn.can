@@ -1,0 +1,43 @@
+[Event "ICS Rated Chess Match"]
+[Site "?"]
+[Date "2009.11.23"]
+[Round "?"]
+[White "PerpetualPassion"]
+[WhiteElo "1854"]
+[Black "dancor"]
+[BlackElo "1650"]
+[Result "1-0"]
+[Annotator "Crafty v22.7"]
+{annotating both black and white moves.}
+{using a scoring margin of +0.10 pawns.}
+{search time limit is 10.00}
+
+  1.      e4      c5
+  2.      b4    cxb4
+  3.      a3    bxa3
+  4.     Nc3
+                ({15:-1.06}  4. Nc3 e5 5. Bxa3 Bxa3 6. Rxa3 Nf6 7. Nb5 O-O 8. Rxa7 Rxa7 9. Nxa7 Nxe4 10. Nxc8 Qxc8 11. Nf3 $17)
+                ({0:+0.00}  4. Bxa3 Nc6 $10)
+                ({0:+0.00}  4. Nxa3 Nc6 $10)
+                ({15:-0.88}  4. Nf3 Nf6 5. e5 Nd5 6. Nxa3 Nc6 7. Bb5 a6 8. Bc4 Nb6 9. Bd3 d6 10. exd6 Nb4 11. Be4 exd6 $17)
+
+  4.     ...      e5
+                ({16:-0.77}  4. ... e5 5. Nf3 Nc6 6. Bc4 Bc5 7. Bxa3 Bxa3 8. Rxa3 Nf6 9. O-O O-O 10. Qe2 Qe7 11. Nb5 d6 12. Rb1 $17)
+                ({16:-1.13}  4. ... e6 5. Bxa3 Bxa3 6. Rxa3 Nc6 7. Nb5 Nf6 8. Nd6+ Ke7 9. Rd3 Ne8 10. Nxe8 Qxe8 11. Nf3 Kf6 12. Qe2 Kg6 $17)
+  5.    Bxa3    Bxa3
+  6.    Rxa3     Nf6
+  7.     Nf3     Nc6
+  8.     Nb5
+                ({14:-1.58}  8. Nb5 d6 9. Bd3 O-O 10. O-O Bg4 11. h3 Be6 12. Qe2 a5 13. Rb1 d5 14. exd5 Qxd5 $19)
+                ({14:-1.29}  8. Bd3 d6 9. Qb1 O-O 10. O-O Rb8 11. Rb3 a5 12. Rb5 Nb4 13. Bc4 Bd7 14. Rxb4 axb4 15. Qxb4 $17)
+                ({14:-1.32}  8. Bc4 O-O 9. O-O d6 10. Qe2 Bg4 11. Qe3 a5 12. Ra4 Bxf3 13. Qxf3 Nd4 14. Qd3 Qe7 $17)
+                ({14:-1.36}  8. Bb5 O-O 9. O-O d6 10. d4 exd4 11. Nxd4 Bg4 12. Qd3 Nxd4 13. Qxd4 a5 14. Nd5 Nxd5 15. Qxd5 $17)
+
+  8.     ...      d5
+  9.    exd5    Qxd5
+                ({13:+6.62}  9. ... Qxd5 10. Nc7+ Ke7 11. Nxd5+ Nxd5 12. Bb5 Kf6 13. Bxc6 bxc6 14. Qa1 Re8 15. Rxa7 Rxa7 16. Qxa7 Bf5 $18)
+                ({13:-1.61}  9. ... Nxd5 10. Bd3 O-O 11. O-O a6 12. Re1 Be6 13. Nc3 Qd6 14. Qc1 Nf4 15. Be4 Bg4 $19)
+                ({13:+0.46}  9. ... Nb4 10. Qb1 Nbxd5 11. Nxa7 Bd7 12. Nxe5 O-O 13. d4 Re8 14. Bd3 Qe7 15. Qc1 Kf8 $14)
+                ({13:+1.60}  9. ... Nb8 10. Qa1 O-O 11. Rxa7 Rxa7 12. Qxa7 Na6 13. c4 Qa5 14. Be2 Ne4 15. Qe3 Qa1+ 16. Bd1 $18)
+ 10.    Nc7+
+       1-0 

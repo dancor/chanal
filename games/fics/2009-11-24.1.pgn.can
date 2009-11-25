@@ -1,0 +1,28 @@
+[Event "ICS Rated Chess Match"]
+[Site "?"]
+[Date "2009.11.24"]
+[Round "?"]
+[White "KMarx"]
+[WhiteElo "1635"]
+[Black "dancor"]
+[BlackElo "1639"]
+[Result "1-0"]
+[Annotator "Crafty v22.7"]
+{annotating both black and white moves.}
+{using a scoring margin of +0.10 pawns.}
+{search time limit is 10.00}
+
+  1.      e4      c5
+  2.      d4    cxd4
+  3.     Nf3     Nc6
+  4.    Nxd4     Qc7
+  5.     Nb5    Qa5+
+                ({15:+0.82}  5. ... Qa5+ 6. Bd2 Qd8 7. Be3 Nf6 8. N1c3 a6 9. Nd4 d5 10. exd5 Nxd5 11. Nxc6 bxc6 12. Nxd5 Qxd5 13. Qd2 $16)
+                ({0:+0.00}  5. ... Qb8 6. c4 $10)
+  6.     Bd2    Qxb5
+                ({14:+8.34}  6. ... Qxb5 7. Bxb5 Nf6 8. Nc3 e6 9. O-O Bc5 10. Bf4 Bd4 11. Qf3 O-O 12. Bd6 Bxc3 13. Bxf8 Bxb2 $18)
+                ({14:+0.82}  6. ... Qd8 7. Be3 Nf6 8. N1c3 a6 9. Nd4 d5 10. exd5 Nxd5 11. Nxc6 bxc6 12. Nxd5 Qxd5 13. Qd2 $16)
+                ({14:+1.31}  6. ... Qb6 7. Be3 Qd8 8. N1c3 Nf6 9. Nd5 Nxd5 10. exd5 a6 11. Nc3 Ne5 12. Be2 d6 13. O-O $16)
+                ({14:+4.77}  6. ... Nb4 7. a3 a6 8. Bxb4 Qb6 9. N5c3 Nf6 10. Nd2 d6 11. Be2 Be6 12. O-O Rc8 13. Nf3 $18)
+  7.    Bxb5
+       1-0 
