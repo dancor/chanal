@@ -1,0 +1,107 @@
+[Event "FICS rated blitz game"]
+[Site "FICS, San Jose, California USA"]
+[Date "2009.12.04"]
+[Round "-"]
+[White "yangon"]
+[WhiteElo "1311"]
+[Black "dancor"]
+[BlackElo "1199"]
+[Result "1-0"]
+[Annotator "Crafty v20.14"]
+{annotating both black and white moves.}
+{using a scoring margin of +0.10 pawns.}
+{search time limit is 10.00}
+
+  1.      e4      c5
+  2.     Nf3      e6
+  3.     Bc4     Nc6
+  4.      h3
+                ({11:+0.03}  4. h3 d5 5. exd5 exd5 6. Be2 Nf6 7. O-O Bd6 8. Re1 O-O 9. d4 $10)
+                ({11:+0.70}  4. O-O Nf6 5. Re1 Ng4 6. h3 Nge5 7. Nxe5 Nxe5 8. Bb5 Bd6 9. d4 $14)
+                ({11:+0.43}  4. Qe2 Nf6 5. Nc3 Be7 6. e5 Nh5 7. O-O O-O 8. d3 d5 9. Bb3 $14)
+                ({11:+0.43}  4. Nc3 Nf6 5. Qe2 Be7 6. e5 Nh5 7. O-O O-O 8. d3 d5 9. Bb3 $14)
+
+  4.     ...     Qc7
+                ({11:+0.59}  4. ... Qc7 5. d3 Nf6 6. Nc3 Be7 7. Nb5 Qb6 8. e5 Nd5 9. Nd6+ Bxd6 10. exd6 $14)
+                ({11:+0.04}  4. ... d5 5. exd5 exd5 6. Qe2+ Be7 7. Bb5 Nf6 8. Ne5 O-O 9. Nxc6 bxc6 10. Bxc6 $10)
+                ({11:-0.08}  4. ... Nf6 5. e5 d5 6. Bb5 Nd7 7. Bxc6 bxc6 8. O-O Be7 9. d4 O-O $10)
+                ({11:+0.24}  4. ... Be7 5. Nc3 Nf6 6. e5 Nh5 7. O-O O-O 8. Nb5 d5 9. exd6 Bxd6 10. Nxd6 Qxd6 $10)
+  5.     Nc3     Nf6
+  6.      a4
+                ({10:-0.08}  6. a4 Nxe4 7. Nxe4 d5 8. Qe2 Be7 9. Nxc5 dxc4 10. Qxc4 O-O $10)
+                ({10:+0.44}  6. O-O Nxe4 7. Nxe4 d5 8. Qe2 Be7 9. Nxc5 dxc4 10. Qxc4 O-O $14)
+                ({10:+0.35}  6. d3 d6 7. Qe2 Be7 8. Nb5 Qb6 9. O-O a6 10. Nc3 O-O $14)
+                ({10:+0.30}  6. Nb5 Qd8 7. e5 d5 8. exd6 Bxd6 9. Nxd6+ Qxd6 10. O-O O-O 11. d3 $10)
+
+  6.     ...      d5
+                ({12:+0.34}  6. ... d5 7. exd5 exd5 8. Nxd5 Nxd5 9. Bxd5 Nb4 10. Qe2+ Be7 11. Be4 O-O 12. O-O Re8 $14)
+                ({12:+0.05}  6. ... Nxe4 7. Nxe4 d5 8. Qe2 dxe4 9. Qxe4 Be7 10. O-O O-O 11. d3 Bd7 12. Bf4 $10)
+                ({12:+0.05}  6. ... Be7 7. d3 d6 8. O-O O-O 9. g4 Nd7 10. Nb5 Qd8 11. Be3 Nde5 12. Nxe5 Nxe5 $10)
+                ({12:+0.10}  6. ... d6 7. O-O Be7 8. d4 O-O 9. dxc5 dxc5 10. Nb5 Qd7 11. Qxd7 Bxd7 12. Rd1 $10)
+  7.    exd5    exd5
+  8.    Nxd5    Nxd5
+  9.    Bxd5     Nb4
+                ({11:+0.86}  9. ... Nb4 10. Bc4 Bd6 11. O-O O-O 12. c3 Nc6 13. d4 Re8 14. d5 Ne5 15. Nxe5 Rxe5 $16)
+                ({11:-0.11}  9. ... Qe7+ 10. Kf1 Qd6 11. Bxc6+ Qxc6 12. Qe2+ Be7 13. d3 Qc7 14. g3 O-O 15. Bf4 Bd6 16. Bxd6 Qxd6 $10)
+                ({11:+0.65}  9. ... Bf5 10. O-O O-O-O 11. Bb3 Bd6 12. Re1 Na5 13. Bd5 Rhe8 14. d4 Bh2+ 15. Nxh2 Rxe1+ 16. Qxe1 Rxd5 $14)
+                ({11:+0.71}  9. ... Be7 10. O-O O-O 11. Re1 Bf5 12. d3 Rae8 13. Bg5 Nb4 14. Bxe7 Rxe7 $16)
+ 10.     Bb3
+                ({10:-0.71}  10. Bb3 c4 11. Ba2 Qe7+ 12. Kf1 Nxa2 13. Rxa2 Be6 14. Nd4 O-O-O 15. Nxe6 Qxe6 $17)
+                ({10:+0.86}  10. Bc4 Bd6 11. O-O O-O 12. c3 Nc6 13. d4 Re8 14. d5 Ne5 15. Nxe5 Rxe5 $16)
+                ({10:+0.09}  10. Be4 f5 11. Bd3 Nxd3+ 12. cxd3 Qe7+ 13. Qe2 Qxe2+ 14. Kxe2 Be6 15. Re1 Bd6 16. Kf1 Kf7 $10)
+                ({10:-0.34}  10. c4 Nd3+ 11. Kf1 Be7 12. Qe2 Nxc1 13. Rxc1 O-O 14. Re1 Re8 15. d4 cxd4 16. Nxd4 $15)
+
+ 10.     ...     Be7
+                ({11:+0.74}  10. ... Be7 11. d3 O-O 12. O-O Bf5 13. Re1 Rae8 14. Bg5 Bxg5 15. Nxg5 Bg6 $16)
+                ({11:-0.71}  10. ... c4 11. Ba2 Qe7+ 12. Kf1 Nxa2 13. Rxa2 Be6 14. Nd4 Bd5 15. Qg4 Rd8 16. Ra3 $17)
+                ({11:-0.09}  10. ... Qe7+ 11. Kf1 Be6 12. Qe2 O-O-O 13. Bxe6+ Qxe6 14. Qxe6+ fxe6 15. c4 Be7 16. Kg1 Nd3 17. Rb1 $10)
+                ({10:+0.67}  10. ... Bd6 11. Qe2+ Qe7 12. Qxe7+ Bxe7 13. O-O Be6 14. a5 O-O 15. Re1 Rae8 16. Bxe6 fxe6 $14)
+ 11.     O-O
+                ({11:+0.47}  11. O-O c4 12. c3 Nd3 13. Qe2 cxb3 14. Qxd3 Be6 15. Qe4 O-O 16. d4 $14)
+                ({11:+0.87}  11. d3 O-O 12. O-O Bf5 13. Re1 Rae8 14. Bg5 Qd6 15. Bxe7 Rxe7 16. Qd2 $16)
+                ({11:+0.53}  11. Bc4 O-O 12. O-O Bf5 13. d3 Rad8 14. Re1 Rfe8 15. Bb5 Nc6 16. Be3 $14)
+
+ 11.     ...     O-O
+                ({12:+0.86}  11. ... O-O 12. d3 Bf5 13. Re1 Rae8 14. Qe2 Nc6 15. Be3 Bf6 16. Rab1 Nd4 17. Nxd4 Bxd4 $16)
+                ({12:+0.56}  11. ... c4 12. c3 Nd3 13. Qe2 cxb3 14. Qxd3 O-O 15. Nd4 Re8 16. Nxb3 Be6 17. Nd4 $14)
+                ({11:+0.92}  11. ... Bf5 12. d3 O-O 13. Re1 Rae8 14. Qe2 Qc6 15. Be3 $16)
+ 12.      d3     Bf5
+ 13.     Bd2
+                ({10:+0.70}  13. Bd2 Bf6 14. Bc3 Bxc3 15. bxc3 Nc6 16. Qd2 Rfe8 17. Rae1 Rad8 $14)
+                ({10:+0.87}  13. Re1 Rae8 14. Bg5 Nc6 15. Qd2 Nd4 16. Nxd4 cxd4 17. Qf4 Qxf4 18. Bxf4 $16)
+                ({10:+0.86}  13. Qe2 Rae8 14. Re1 Nc6 15. Be3 Bf6 16. Rab1 Nd4 17. Nxd4 Bxd4 $16)
+                ({10:+0.87}  13. Bg5 Bxg5 14. Nxg5 h6 15. Nf3 Rad8 16. Qd2 Rfe8 17. Rae1 Be4 $16)
+
+ 13.     ...    Rfe8
+ 14.     Bc3     Bd6
+ 15.     Ng5     Be6
+                ({9:+2.23}  15. ... Be6 16. Qh5 h6 17. Nxe6 fxe6 18. Rae1 Qf7 19. Qg4 Nd5 $18)
+                ({9:+1.04}  15. ... Bg6 16. Qg4 Re7 17. Rfe1 h5 18. Qc4 Rae8 19. Ne4 Bh2+ 20. Kh1 $16)
+                ({9:+1.16}  15. ... Re7 16. Qf3 Bg6 17. Rae1 Rd8 18. h4 Rde8 19. h5 Rxe1 20. Rxe1 Rxe1+ 21. Bxe1 $16)
+                ({9:+1.44}  15. ... Rf8 16. Re1 Bg6 17. Qe2 Rad8 18. h4 Kh8 19. h5 Bf5 $16)
+ 16.    Nxe6    fxe6
+ 17.     Qg4
+                ({11:+2.16}  17. Qg4 Nd5 18. Rae1 Kh8 19. Rxe6 Rxe6 20. Qxe6 Nxc3 21. bxc3 Bh2+ 22. Kh1 Be5 23. Qc4 $18)
+                ({11:+2.54}  17. Re1 Qf7 18. Bxb4 cxb4 19. Qg4 Kh8 20. Bxe6 Qc7 21. Re2 Bh2+ 22. Kh1 Qf4 $18)
+
+ 17.     ...     Be5
+                ({11:+2.71}  17. ... Be5 18. Rae1 Bxc3 19. bxc3 Nc6 20. Bxe6+ Kh8 21. Qh5 Qd6 22. Bf5 g6 23. Qh6 $18)
+                ({11:+2.12}  17. ... Nd5 18. Rfe1 Nxc3 19. bxc3 Be5 20. Bxe6+ Kh8 21. d4 Bf6 22. Rac1 Rad8 23. Re4 $18)
+                ({11:+2.14}  17. ... Kh8 18. Bxe6 Be5 19. Bb3 Qd6 20. Rae1 Bxc3 21. bxc3 Nd5 22. Bxd5 Qxd5 $18)
+ 18.   Bxe6+
+                ({12:+2.14}  18. Bxe6+ Kh8 19. Bb3 Bxc3 20. bxc3 Nc6 21. Rae1 Rad8 22. Qh5 Re5 23. Qf7 Qxf7 24. Bxf7 $18)
+                ({12:+2.95}  18. Rae1 Bxc3 19. bxc3 Na6 20. Rxe6 Rxe6 21. Qxe6+ Kh8 22. Bc4 Qf4 23. g3 Qd2 24. Qd5 Re8 25. Bxa6 bxa6 26. Qxc5 Qxc2 $18)
+                ({12:+2.90}  18. Rfe1 Bxc3 19. bxc3 Nc6 20. Rxe6 Rxe6 21. Qxe6+ Kh8 22. Re1 Rf8 23. Bd5 Nd8 24. Qe5 Qxe5 25. Rxe5 $18)
+                ({12:+2.59}  18. d4 Bh2+ 19. Kh1 c4 20. Bxb4 cxb3 21. f4 a5 22. Bc3 h5 23. Qg5 Bxf4 24. Rxf4 bxc2 $18)
+
+ 18.     ...     Kh8
+ 19.     Bb3    Bxc3
+                ({12:+2.31}  19. ... Bxc3 20. bxc3 Nc6 21. Rae1 Rad8 22. Qh5 Ne5 23. d4 g6 24. Qh4 g5 25. Qxg5 cxd4 26. cxd4 Rxd4 $18)
+                ({12:+2.17}  19. ... Nc6 20. Rae1 Re7 21. Qh5 Rae8 22. f4 Bd4+ 23. Kh2 Rxe1 24. Bxe1 g6 25. Qg5 Re2 $18)
+ 20.    bxc3     Nd5
+                ({12:+6.94}  20. ... Nd5 21. Bxd5 Rab8 22. Rae1 Rbd8 23. Qh5 g6 24. Qg5 Qg7 25. c4 Qc3 26. Rxe8+ Rxe8 27. Bxb7 Qxc2 28. Qxc5 Qxd3 $18)
+                ({12:+2.47}  20. ... Nc6 21. Rae1 Rad8 22. Re6 Rxe6 23. Qxe6 Qe7 24. Re1 Re8 25. Qxe7 Nxe7 26. a5 $18)
+                ({12:+2.74}  20. ... Na6 21. Rae1 Rad8 22. Re3 Qc6 23. Qh5 Nc7 24. Bf7 Rf8 25. Re7 Nd5 26. Bxd5 Rxd5 $18)
+                ({12:+3.27}  20. ... c4 21. Bxc4 Nc6 22. d4 Qa5 23. Qg3 Rac8 24. Rfd1 Ne7 25. Bb5 Nf5 26. Qg5 $18)
+ 21.    Bxd5
+       1-0 
