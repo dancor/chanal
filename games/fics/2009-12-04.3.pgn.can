@@ -1,0 +1,57 @@
+[Event "FICS rated blitz game"]
+[Site "FICS, San Jose, California USA"]
+[Date "2009.12.04"]
+[Round "-"]
+[White "dancor"]
+[WhiteElo "1196"]
+[Black "happyb"]
+[BlackElo "1112"]
+[Result "1-0"]
+[Annotator "Crafty v20.14"]
+{annotating both black and white moves.}
+{using a scoring margin of +0.10 pawns.}
+{search time limit is 10.00}
+
+  1.     Nf3      d5
+  2.      c4      d4
+  3.      d3      c5
+                ({11:+0.55}  3. ... c5 4. e3 Nc6 5. Be2 e5 6. exd4 cxd4 7. O-O Nf6 8. Re1 Bd6 $14)
+                ({11:+0.14}  3. ... Nc6 4. e3 e5 5. exd4 Bb4+ 6. Bd2 Bxd2+ 7. Nbxd2 exd4 8. Be2 Nf6 9. O-O O-O $10)
+                ({11:+0.27}  3. ... e6 4. e4 Nc6 5. Be2 Bb4+ 6. Bd2 Nf6 7. Bxb4 Nxb4 8. O-O O-O 9. Nbd2 $10)
+                ({11:+0.20}  3. ... Nf6 4. e3 e5 5. Nxe5 dxe3 6. Bxe3 Bb4+ 7. Nc3 O-O 8. Be2 Re8 $10)
+  4.     Bf4
+                ({11:+0.21}  4. Bf4 f6 5. Bxb8 Qa5+ 6. Qd2 Qxd2+ 7. Nbxd2 Rxb8 8. e4 dxe3 9. fxe3 e5 10. Be2 $10)
+                ({11:+0.53}  4. e4 Nc6 5. Be2 e5 6. O-O Bd6 7. Bg5 Nf6 8. Bxf6 Qxf6 9. Nbd2 $14)
+                ({11:+0.72}  4. e3 Qa5+ 5. Qd2 Qxd2+ 6. Bxd2 Nc6 7. Be2 dxe3 8. Bxe3 e5 9. O-O Bd6 10. Nc3 $16)
+                ({11:+0.36}  4. Bd2 Nc6 5. e4 dxe3 6. fxe3 Bf5 7. e4 Bg4 8. Qb3 Qd7 9. Be2 $14)
+
+  4.     ...     Nc6
+  5.      e3     Bg4
+                ({10:+0.66}  5. ... Bg4 6. Be2 dxe3 7. fxe3 e6 8. Qb3 Nb4 9. O-O Bd6 10. Bg5 $14)
+                ({10:+0.32}  5. ... h6 6. exd4 Nxd4 7. Nc3 e6 8. Be5 Nf6 9. Nxd4 cxd4 10. Nb5 $14)
+                ({10:+0.35}  5. ... g6 6. Be2 Bg7 7. Qd2 e5 8. Bg3 e4 9. dxe4 dxe3 10. Qxd8+ Nxd8 $14)
+                ({10:+0.42}  5. ... Qa5+ 6. Nbd2 g6 7. Be2 Bg7 8. Qb3 e5 9. Bg3 dxe3 10. fxe3 Nge7 $14)
+  6.     Be2      e5
+                ({10:+1.38}  6. ... e5 7. Nxe5 Nxe5 8. Bxe5 Qa5+ 9. Nd2 dxe3 10. Bxg4 Qxd2+ 11. Qxd2 exd2+ 12. Kxd2 Rd8 $16)
+                ({10:+0.70}  6. ... Qb6 7. O-O Qxb2 8. Nbd2 O-O-O 9. Ng5 Bxe2 10. Qxe2 dxe3 11. Qxe3 $14)
+                ({10:+0.70}  6. ... dxe3 7. Bxe3 Qb6 8. O-O e5 9. b3 O-O-O 10. Ng5 Bxe2 11. Qxe2 $14)
+                ({10:+0.69}  6. ... e6 7. O-O Nf6 8. Nxd4 cxd4 9. Bxg4 dxe3 10. Bf3 exf2+ 11. Rxf2 Qd4 $14)
+  7.    Nxe5    Bxe2
+                ({12:+1.66}  7. ... Bxe2 8. Qxe2 Nxe5 9. exd4 Ne7 10. Qxe5 Qxd4 11. Qxd4 cxd4 12. O-O Ng6 13. Re1+ Be7 $18)
+                ({12:+1.35}  7. ... Nxe5 8. Bxe5 Bxe2 9. Qxe2 Qg5 10. Bg3 O-O-O 11. O-O Re8 12. e4 Be7 13. Nd2 $16)
+  8.    Qxe2    dxe3
+                ({12:+2.79}  8. ... dxe3 9. Nxc6 bxc6 10. O-O Bd6 11. Qxe3+ Kf8 12. Bxd6+ Qxd6 13. Re1 Rd8 14. Nc3 Qxd3 15. Qxc5+ Rd6 $18)
+                ({12:+1.68}  8. ... Nxe5 9. exd4 Ne7 10. dxe5 Qd4 11. Be3 Qxe5 12. O-O Nf5 13. Nd2 Nxe3 14. Qxe3 Qxe3 15. fxe3 $18)
+                ({12:+2.04}  8. ... Nge7 9. Nxc6 Nxc6 10. exd4+ Be7 11. d5 Nd4 12. Qd2 O-O 13. O-O Re8 14. Re1 Qd7 $18)
+                ({12:+2.24}  8. ... Rc8 9. O-O Qe7 10. Nf3 Qe6 11. Qd2 Be7 12. exd4 Nxd4 13. Nxd4 cxd4 14. Re1 $18)
+  9.    Qxe3
+                ({12:+1.64}  9. Qxe3 Nd4 10. Nc6+ Qe7 11. Nxd4 cxd4 12. Qxe7+ Nxe7 13. O-O Ng6 14. Re1+ Be7 15. Bg5 f6 16. Bd2 $18)
+                ({13:+2.69}  9. Nxc6 bxc6 10. O-O Be7 11. Bxe3 Qd6 12. Nc3 Rd8 13. Rad1 Nf6 14. Rfe1 O-O 15. Bxc5 $18)
+
+  9.     ...     Bd6
+                ({12:+11.81}  9. ... Bd6 10. Nxc6+ Ne7 11. Nxd8 Bxf4 12. Qxf4 Rxd8 13. Qc7 O-O 14. Qxc5 Rfe8 15. Kd2 Nc6 $18)
+                ({12:+1.99}  9. ... Nd4 10. Nc6+ Be7 11. Nxd8 Nc2+ 12. Ke2 Nxe3 13. Nxf7 Kxf7 14. fxe3 Rf8 15. Kd2 Nf6 16. Rf1 $18)
+                ({12:+2.14}  9. ... Nxe5 10. Bxe5 Qe7 11. Nc3 O-O-O 12. Nd5 Qe6 13. O-O f6 14. Bf4 Qxe3 15. Bxe3 $18)
+                ({12:+2.15}  9. ... Qd4 10. Nxc6+ Qxe3+ 11. Bxe3 bxc6 12. Nc3 Nf6 13. O-O-O Be7 14. Rhe1 O-O 15. Ne4 Nd7 16. f4 $18)
+ 10.   Nxc6+
+       1-0 

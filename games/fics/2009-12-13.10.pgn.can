@@ -1,0 +1,31 @@
+[Event "FICS rated lightning game"]
+[Site "FICS, San Jose, California USA"]
+[Date "2009.12.13"]
+[Round "-"]
+[White "countdown"]
+[WhiteElo "1267"]
+[Black "dancor"]
+[BlackElo "1108"]
+[Result "1-0"]
+[Annotator "Crafty v20.14"]
+{annotating both black and white moves.}
+{using a scoring margin of +0.10 pawns.}
+{search time limit is 10.00}
+
+  1.      e4      c5
+  2.     Nc3      e6
+  3.      g3     Nc6
+  4.     Bg2     Nf6
+  5.      d3      d5
+                ({10:+0.02}  5. ... d5 6. exd5 exd5 7. Bd2 Be7 8. Nf3 d4 9. Ne2 O-O 10. O-O $10)
+                ({10:-0.13}  5. ... Be7 6. Nf3 O-O 7. O-O d6 8. Bf4 e5 9. Be3 Be6 10. Rc1 $10)
+                ({10:-0.10}  5. ... d6 6. Nf3 Be7 7. Be3 O-O 8. Qe2 Bd7 9. O-O-O Qb6 10. Rhe1 $10)
+  6.    exd5    Nxd5
+                ({11:+0.13}  6. ... Nxd5 7. Nge2 Be7 8. Nxd5 exd5 9. Nf4 d4 10. Bxc6+ bxc6 11. Qf3 O-O 12. Qxc6 $10)
+                ({11:-0.19}  6. ... exd5 7. Nge2 Be7 8. O-O O-O 9. Re1 d4 10. Ne4 Nxe4 11. Bxe4 Re8 $10)
+  7.    Nge2    Nxc3
+                ({11:+0.35}  7. ... Nxc3 8. Bxc6+ bxc6 9. Nxc3 Bd6 10. O-O $14)
+                ({11:+0.07}  7. ... Be7 8. O-O O-O 9. Re1 Nxc3 10. Nxc3 Bd7 11. Bd2 Re8 12. Qg4 Kh8 $10)
+                ({11:+0.32}  7. ... Nc7 8. Bxc6+ bxc6 9. O-O Be7 10. Be3 O-O 11. Rb1 Bb7 12. Re1 Rb8 13. Nf4 $14)
+  8.    Nxc3
+       1-0 

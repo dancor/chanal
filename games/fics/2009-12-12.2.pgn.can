@@ -1,0 +1,30 @@
+[Event "FICS rated blitz game"]
+[Site "FICS, San Jose, California USA"]
+[Date "2009.12.12"]
+[Round "-"]
+[White "Pawntune"]
+[WhiteElo "1311"]
+[Black "dancor"]
+[BlackElo "1177"]
+[Result "1-0"]
+[Annotator "Crafty v20.14"]
+{annotating both black and white moves.}
+{using a scoring margin of +0.10 pawns.}
+{search time limit is 10.00}
+
+  1.      d4     Nf6
+  2.     Nc3      e6
+  3.      e4     Bb4
+  4.      e5     Nd5
+  5.     Qg4    Nxc3
+                ({12:+1.04}  5. ... Nxc3 6. Qxg7 Rf8 7. a3 Ba5 8. Bd2 Qh4 9. bxc3 Qe4+ 10. Kd1 d6 11. Bd3 Qc6 $16)
+                ({12:+0.55}  5. ... g6 6. Bg5 Bxc3+ 7. bxc3 f6 8. exf6 Nxf6 9. Qf3 O-O 10. h4 d5 11. h5 gxh5 12. Bxf6 Qxf6 13. Rxh5 $14)
+                ({12:+0.55}  5. ... Bxc3+ 6. bxc3 g6 7. Bg5 f6 8. exf6 Nxf6 9. Qf3 O-O 10. h4 d5 11. h5 gxh5 12. Bxf6 Qxf6 13. Rxh5 $14)
+                ({12:+0.74}  5. ... g5 6. Ne2 Nxc3 7. Nxc3 Be7 8. Ne4 h5 9. Qg3 Nc6 10. Nxg5 Nxd4 11. Bd3 $16)
+  6.    Qxg7     Ke7
+                ({12:+16.63}  6. ... Ke7 7. Bg5+ Ke8 8. Qxh8+ Bf8 9. Bxd8 Nd5 10. Bg5 d6 11. Qxh7 Nc6 12. O-O-O Bd7 13. Nf3 Be7 14. Qg8+ Bf8 $18)
+                ({12:+0.95}  6. ... Rf8 7. a3 Ba5 8. Bd2 Qh4 9. bxc3 Qe4+ 10. Kd1 d6 11. Bb5+ Nd7 12. Nf3 Bb6 13. Re1 $16)
+                ({12:+1.73}  6. ... Nd5+ 7. c3 Rf8 8. cxb4 Qe7 9. a3 f6 10. Qxe7+ Nxe7 11. exf6 Rxf6 12. Bg5 Rf5 13. Nf3 $18)
+                ({12:+2.27}  6. ... Na4+ 7. c3 Rf8 8. cxb4 Qe7 9. a3 f6 10. Qxe7+ Kxe7 11. Nf3 Ke8 12. Bb5 Nb6 13. O-O Nd5 $18)
+  7.    Bg5+
+       1-0 
