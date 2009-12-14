@@ -2,6 +2,7 @@
 
 module Main where
 
+import Control.Arrow
 import Control.Applicative
 import Data.Char
 import Data.Maybe
@@ -59,9 +60,28 @@ addLines prevLine m ((l, name):rest) =
   addLines prevLine' (addFullLine m prevLine' name) rest
   where prevLine' = merge prevLine l
 
+lTrunc :: Int -> L -> L
+lTrunc n (L a) = if n == 1
+  then L $ map (second f) a
+  else L $ map (second (lTrunc (n - 1) <$>)) a
+  where
+  f :: Either String L -> Either String L
+  f v = case v of
+    Left s -> Left s
+    Right (L a') -> Left $ concatMap (ff . snd) a'
+  ff :: Either String L -> String
+  ff v = case v of
+    Left s -> s
+    Right (L a'') -> concatMap (ff . snd) a''
+
 main :: IO ()
 main = do
+  let nMb = Just 4
   t <- addLines "" (L []) .  map (\ [a, b] -> (a, dropWhile isSpace b)) .
     splitN 2 . filter (not . null) . lines <$> readFile "games/lines"
-  putStr . unlines $ pp 0 t
+  let
+    t' = case nMb of
+      Nothing -> t
+      Just n -> lTrunc n t
+  putStr . unlines $ pp 0 t'
 
