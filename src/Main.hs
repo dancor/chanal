@@ -11,25 +11,28 @@ import System.IO
 data L = L {unL :: [(String, Either String L)]}
   deriving Show
 
-pp :: L -> [String]
-pp a = l:lab:ls where
-  (l:ls, lab) = ppLinesAndTopLabel a
+pp :: Int -> L -> [String]
+pp plyDone a = l:lab:ls where
+  (l:ls, lab) = ppLinesAndTopLabel plyDone a
 
-ppLinesAndTopLabel :: L -> ([String], String)
-ppLinesAndTopLabel (L m) = (ls ++ restLs, label)
+ppLinesAndTopLabel :: Int -> L -> ([String], String)
+ppLinesAndTopLabel plyDone (L m) = (ls ++ restLs, label)
   where
   (k, v):rest = m
+  k' = if plyDone `mod` 2 == 0
+    then show (plyDone `div` 2 + 1) ++ " " ++ k
+    else k
   (ls, label) = case v of
     Left lab -> ([k], lab)
     Right a -> (zipWith (\ l1 l2 -> l1 ++ " " ++ l2)
-      (k:repeat (replicate (length k) ' '))
+      (k' : repeat (replicate (length k') ' '))
       ls, lab)
       where
-      (ls, lab) = ppLinesAndTopLabel a
+      (ls, lab) = ppLinesAndTopLabel (plyDone + 1) a
   restLs =
     if null rest
       then []
-      else pp . L $ rest
+      else pp plyDone $ L rest
 
 merge :: String -> String -> String
 merge prev new = take n prev ++ drop n new where
@@ -60,5 +63,5 @@ main :: IO ()
 main = do
   t <- addLines "" (L []) .  map (\ [a, b] -> (a, dropWhile isSpace b)) .
     splitN 2 . filter (not . null) . lines <$> readFile "games/lines"
-  putStr . unlines $ pp t
+  putStr . unlines $ pp 0 t
 
