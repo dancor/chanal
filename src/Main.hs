@@ -7,7 +7,20 @@ import Control.Applicative
 import Data.Char
 import Data.Maybe
 import FUtil
+import System.Console.GetOpt
+import System.Environment
 import System.IO
+
+data Opts = Opts {
+  optN :: Maybe Int}
+
+defOpts = Opts {
+  optN = Nothing}
+
+procOpts = [
+  Option "n" ["truncate"]
+    (ReqArg (\ n opts -> opts {optN = Just $ read n}) "N")
+    "Truncate the tree at a depth of N (>= 1) ply."]
 
 data L = L {unL :: [(String, Either String L)]}
   deriving Show
@@ -76,11 +89,15 @@ lTrunc n (L a) = if n == 1
 
 main :: IO ()
 main = do
-  let nMb = Just 4
+  args <- getArgs
+  let
+    (opts, []) = case getOpt Permute procOpts args of
+      (o, n, []) -> (foldl (flip id) defOpts o, n)
+      (_, _, e) -> error $ concat e
   t <- addLines "" (L []) .  map (\ [a, b] -> (a, dropWhile isSpace b)) .
     splitN 2 . filter (not . null) . lines <$> readFile "games/lines"
   let
-    t' = case nMb of
+    t' = case optN opts of
       Nothing -> t
       Just n -> lTrunc n t
   putStr . unlines $ pp 0 t'
