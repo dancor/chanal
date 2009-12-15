@@ -1,0 +1,18 @@
+[Event "FICS rated standard game"]
+[Site "FICS, San Jose, California USA"]
+[Date "2009.11.24"]
+[Time "16:27:27"]
+[Round "-"]
+[White "PatOrMat"]
+[Black "dancor"]
+[WhiteElo "1710"]
+[BlackElo "1623"]
+[TimeControl "900+0"]
+[Mode "ICS"]
+[Result "0-1"]
+
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e5 5. Nb3 Nf6 6. Nc3 Bb4 7. Bd3 Bxc3+
+8. bxc3 d5 9. exd5 Qxd5 10. O-O Bg4 11. Qe1 O-O 12. Bg5 e4 13. Bxf6 exd3
+14. Bxg7 Kxg7 15. cxd3 Qxd3 16. Nd4 Nxd4 17. cxd4 Be2
+{White resigns} 0-1
+

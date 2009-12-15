@@ -1,0 +1,19 @@
+[Event "FICS rated lightning game"]
+[Site "FICS, San Jose, California USA"]
+[Date "2009.11.24"]
+[Time "16:36:46"]
+[Round "-"]
+[White "dancor"]
+[Black "ImaGumby"]
+[WhiteElo "1025"]
+[BlackElo "1331"]
+[TimeControl "60+0"]
+[Mode "ICS"]
+[Result "1-0"]
+
+1. Nf3 d5 2. c4 dxc4 3. e3 b5 4. a4 c6 5. axb5 cxb5 6. Nc3 Bd7 7. Ne5 Nf6
+8. Qf3 Nc6 9. Nxc6 Qc8 10. Ne5 e6 11. Nxd7 Kxd7 12. Nxb5 Bc5 13. Bxc4 Rd8
+14. b3 Ke8 15. Nc3 Kf8 16. Ne4 Be7 17. Nxf6 Bxf6 18. Rb1 Qb7 19. Qxb7 Rab8
+20. Qf3
+{Black forfeits on time} 1-0
+
