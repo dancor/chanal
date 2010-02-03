@@ -1,5 +1,7 @@
 1 Nf3 c5 2 c4 Nc6 3 Nc3 e5 4 g3 g6 5 Bg2 Bg7 6 O-O Nge7 7 d3 O-O <
 (english symmetrical)
+              Nf6 3 Nc3 e6 4 g3 b6 5 Bg2 Bb7 6 O-O Be7 7 Re1 d6 8 e4
+              (english symmetrical hedgehog)
          2 e4 e6 3 d4 cxd4 4 Nxd4 a6 5 Bd3 Bc5 6 Nb3 Be7 7 O-O d6 8 c4 Nf6
          (sicilian kan)
                                      5 Nc3 Qc7 6 Bd3 Nf6 7 O-O Nc6 8 Be3 Ne5
@@ -12,8 +14,8 @@
                  <sicilian taimanov>
       Nf6 2 c4 g6 3 Nc3 Bg7 4 e4 d6 5 d4 O-O 6 Be2 Na6 7 O-O e5 8 Be3
       (KI glek)
-               c5 3 Nc3 e6 4 g3 b6 5 Bg2 Bb7 6 O-O Be7 7 Re1 d6 8 e4
-               (english symmetrical hedgehog)
+               c5
+               <english symmetrical hedgehog>
                e6 3 g3 d5 4 Bg2 dxc4 5 Qa4 Nd7 6 Qxc4 c5 <
                (english neo-catalan accepted)
       g6 2 d4 Bg7 3 c4 d6 4 Nc3 Nf6 5 e4
@@ -37,7 +39,7 @@
       b6 2 g3 Bb7 3 Bg2 c5 4 O-O Nf6 5 c4 e6 6 Nc3
       <english symmetrical hedgehog>
       e6 2 c4 d5 3 g3 dxc4 4 Qa4 <
-      (reti accepted 1 .. e6)
+      (reti accepted)
 1 d4 Nf6 2 c4 e6 3 Nf3 b6 4 g3 Ba6 5 b3 Bb4 6 Bd2 Be7 7 Bg2 c6 8 Bc3 d5
 (QI nimzowitsch)
                  3 Nc3 Bb4 4 Qc2 O-O 5 a3 Bxc3 6 Qxc3 b6 7 Bg5 Bb7 8 f3 h6
